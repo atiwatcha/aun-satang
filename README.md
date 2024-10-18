@@ -24,7 +24,9 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Additional Tips
-If you make updates to your project, remember to run npm run build and npm run deploy again.
+If you make updates to your project, remember to run 
+npm run build and npm run deploy 
+again.
 You can check your repository settings on GitHub to ensure GitHub Pages is enabled.
 If you have any issues or need further assistance, let me know!
 
