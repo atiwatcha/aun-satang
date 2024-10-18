@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <WeddingHero />
+    <StorySection />
+    <DetailsSection />
+    <WeddingGallery />
+    <RSVPForm />
+    <WeddingMap />
+    <WeddingMapShow />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import WeddingHero from './components/WeddingHero.vue';
+import StorySection from './components/StorySection.vue';
+import DetailsSection from './components/DetailsSection.vue';
+import WeddingGallery from './components/WeddingGallery.vue';
+import RSVPForm from './components/RSVPForm.vue';
+import WeddingMap from './components/WeddingMap.vue';
+import WeddingMapShow from './components/WeddingMapShow.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    WeddingHero,
+    StorySection,
+    DetailsSection,
+    WeddingGallery,
+    RSVPForm,
+    WeddingMap,
+    WeddingMapShow,
+  },
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: Arial, sans-serif;
 }
 </style>
