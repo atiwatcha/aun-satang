@@ -1,12 +1,12 @@
 <template>
-    <section class="rsvp">
+    <!-- <section class="rsvp">
       <h2>RSVP</h2>
       <form @submit.prevent="submitRSVP">
         <input v-model="name" type="text" placeholder="Your Name" required />
         <input v-model="email" type="email" placeholder="Your Email" required />
         <button type="submit">Submit</button>
       </form>
-    </section>
+    </section> -->
   </template>
   
   <script>

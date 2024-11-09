@@ -1,6 +1,6 @@
 <template>
   <div class="map-container">
-    <h2>Find Us Here</h2>
+    <!-- <h2>Find Us Here</h2> -->
     <a
       :href="googleMapsLink"
       target="_blank"
