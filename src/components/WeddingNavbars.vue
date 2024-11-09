@@ -4,7 +4,7 @@
         <div class="relative flex items-center justify-between h-16">
            <!-- Logo -->
           <div class="flex-shrink-0 text-xl font-semibold">
-            <router-link to="/" class="text-white">Aun-Satang</router-link>
+            <router-link to="/home" class="text-white">Aun-Satang</router-link>
           </div>
 
           <!-- Logo Section -->
@@ -22,7 +22,7 @@
   
           <!-- Navigation Links for Desktop -->
           <div class="hidden sm:flex space-x-4">
-            <router-link to="/" class="text-white hover:text-rose-500 font-bold">Home</router-link>
+            <router-link to="/home" class="text-white hover:text-rose-500 font-bold">Home</router-link>
             <router-link to="/map" class="text-white hover:text-rose-500 font-bold">Map</router-link>
             <router-link to="/gallery" class="text-white hover:text-rose-500 font-bold">Gallery</router-link>
           </div>
@@ -32,7 +32,7 @@
       <!-- Mobile Menu (hidden by default) -->
       <div v-show="isMobileMenuOpen" class="sm:hidden">
         <div class="px-2 pt-2 pb-3 space-y-1">
-          <router-link to="/" class="block text-white hover:bg-red-200 hover:text-rose-500 font-bold">Home</router-link>
+          <router-link to="/home" class="block text-white hover:bg-red-200 hover:text-rose-500 font-bold">Home</router-link>
           <router-link to="/map" class="block text-white hover:bg-red-200 hover:text-rose-500 font-bold">Map</router-link>
           <router-link to="/gallery" class="block text-white hover:bg-red-200 hover:text-rose-500 font-bold">Gallery</router-link>
         </div>
