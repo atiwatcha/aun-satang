@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "dotenv-webpack": "^8.1.0",
     "leaflet": "^1.9.4",
+    "save-dev": "0.0.1-security",
     "vue": "^3.2.13",
     "vue-router": "^4.4.5"
   },
