@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      backgroundImage: require('@/assets/photos/aun-satang-wedding1.png') // Add your photo path
+      backgroundImage: require('@/assets/photos/aun-satang-wedding1.jpg') // Add your photo path
     };
   }
 };
