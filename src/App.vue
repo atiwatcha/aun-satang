@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <WeddingNavbars class="fixed top-0 z-10 w-full w-[100%]"/>
+    <WeddingNavbars class="fixed top-0 z-10 w-[100%]"/>
     <router-view class="bodyShow"></router-view> <!-- This is where the routed components will be displayed -->
     <!-- <WeddingHero />
     <StorySection />
