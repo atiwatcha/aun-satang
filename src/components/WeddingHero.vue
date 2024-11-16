@@ -1,5 +1,5 @@
 <template>
-  <div class="hero size-full max-[800px]:h-[60%] min-[1220px]:h-[150%]" :style="{ backgroundImage: `url(${backgroundImage})` }">
+  <div class="hero size-full max-[800px]:h-[40%] min-[1220px]:h-[150%]" :style="{ backgroundImage: `url(${backgroundImage})` }">
     <h1 class="title text-orange-600">Join Us for Our Wedding</h1>
     <p class="date text-rose-600">Date: March 1, 2025</p>
   </div>
