@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-full max-w-lg mx-auto overflow-hidden">
+  <div class="relative w-full overflow-hidden">
     <!-- Slider container -->
     <div class="flex transition-transform duration-500" :style="sliderStyle">
       <!-- Image items -->
