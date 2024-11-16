@@ -1,7 +1,7 @@
 <template>
-  <div class="hero" :style="{ backgroundImage: `url(${backgroundImage})` }">
-    <h1 class="title">Join Us for Our Wedding</h1>
-    <p class="date">Date: March 1, 2025</p>
+  <div class="hero size-full" :style="{ backgroundImage: `url(${backgroundImage})` }">
+    <h1 class="title text-orange-600">Join Us for Our Wedding</h1>
+    <p class="date text-rose-600">Date: March 1, 2025</p>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 export default {
   data() {
     return {
-      backgroundImage: require('@/assets/photos/aun-satang4.jpg') // Add your photo path
+      backgroundImage: require('@/assets/photos/aun-satang-wedding1.png') // Add your photo path
     };
   }
 };
@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .hero {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;

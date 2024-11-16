@@ -1,8 +1,8 @@
 <template>
     <section class="details">
       <h2>Event Details</h2>
-      <p>Location: Beautiful Venue</p>
-      <p>Date: 12th December 2024</p>
+      <p>Location: Sherlyn : Glass House & Garden </p>
+      <p>Date: 1 March 2025</p>
       <p>Time: 3:00 PM</p>
     </section>
   </template>

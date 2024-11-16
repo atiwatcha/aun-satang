@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <WeddingNavbars class="fixed top-0 z-10 w-[100%]"/>
+    <WeddingNavbars />
     <router-view class="bodyShow"></router-view> <!-- This is where the routed components will be displayed -->
     <!-- <WeddingHero />
     <StorySection />
@@ -41,10 +41,22 @@ console.log(process.env.VUE_APP_BASE_URL);
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: Arial, sans-serif;
 }
 .bodyShow {
-  margin-top: 80px;
+  margin-top: 75px;
+} */
+ /* Global styles */
+#app {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+router-view {
+  flex: 1; /* Makes router-view take up the remaining space */
+  padding: 20px; /* Adds padding around the content */
 }
 </style>
