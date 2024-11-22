@@ -1,15 +1,16 @@
 <template>
     <div>
-        <WeddingGallery />
+        <WeddingShowImages />
     </div>
 
   </template>
   
   <script>
-    import WeddingGallery from '../components/WeddingGallery.vue';
+    //import WeddingGallery from '../components/WeddingGallery.vue';
+    import WeddingShowImages from '../components/WeddingShowImages.vue';
     export default {
         components: {
-            WeddingGallery,
+            WeddingShowImages,
         },
     };
   </script>

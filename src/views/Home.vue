@@ -3,7 +3,7 @@
         <WeddingHero />
         <StorySection />
         <DetailsSection />
-        <WeddingGallery />
+        <WeddingShowImages />
         <RSVPForm />
         <WeddingMap />
         <WeddingMapShow />
@@ -14,7 +14,7 @@
   import WeddingHero from '../components/WeddingHero.vue';
   import StorySection from '../components/StorySection.vue';
   import DetailsSection from '../components/DetailsSection.vue';
-  import WeddingGallery from '../components/WeddingGallery.vue';
+  import WeddingShowImages from '../components/WeddingShowImages.vue';
   import RSVPForm from '../components/RSVPForm.vue';
   import WeddingMap from '../components/WeddingMap.vue';
   import WeddingMapShow from '../components/WeddingMapShow.vue';
@@ -23,7 +23,7 @@
         WeddingHero,
         StorySection,
         DetailsSection,
-        WeddingGallery,
+        WeddingShowImages,
         RSVPForm,
         WeddingMap,
         WeddingMapShow,
