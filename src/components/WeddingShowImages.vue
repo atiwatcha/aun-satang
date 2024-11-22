@@ -2,9 +2,9 @@
     <section class="WeddingShowImages">
         <div class="relative w-full flex gap-6 snap-x snap-mandatory overflow-x-auto pb-14">
             <div v-for="(image, index) in images" :key="index"
-                class="snap-always snap-center shrink-0 first:pl-8 last:pr-8">
+                class="snap-always snap-center shrink-0 first:pl-8 last:pr-8 ">
                 <div class="bg-indigo-300">
-                    <img class="object-cover object-cover h-88 w-96" :src="image.src" :alt="image.alt">
+                    <img class="object-cover object-cover h-88 w-96 rounded-xl" :src="image.src" :alt="image.alt">
                 </div>
             </div>
         </div>
