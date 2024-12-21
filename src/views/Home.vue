@@ -1,17 +1,22 @@
 <template>
-    <div>
+    <div class="justify-center items-center bg-gray-100">
         <WeddingHero />
-        <StorySection />
-        <DetailsSection />
-        <WeddingShowImages />
+        
+        <!-- Use the CountdownTimer component -->
+        <CountdownTimer />
+        <!-- <StorySection /> -->
+        <!-- <DetailsSection /> -->
+       
         <RSVPForm />
         <WeddingMap />
         <WeddingMapShow />
+        <WeddingShowImages />
     </div>
   </template>
   
   <script>
   import WeddingHero from '../components/WeddingHero.vue';
+  import CountdownTimer from '../components/CountdownTimer.vue';
   import StorySection from '../components/StorySection.vue';
   import DetailsSection from '../components/DetailsSection.vue';
   import WeddingShowImages from '../components/WeddingShowImages.vue';
@@ -21,12 +26,14 @@
   export default {
     components: {
         WeddingHero,
+        CountdownTimer,
         StorySection,
         DetailsSection,
         WeddingShowImages,
         RSVPForm,
         WeddingMap,
         WeddingMapShow,
-    },
+    }
+
   };
   </script>
