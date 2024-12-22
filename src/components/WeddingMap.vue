@@ -8,7 +8,7 @@
     </div>
     <div class="map-container">
       <!-- <h2>Find Us Here</h2> -->
-      <a :href="googleMapsLink" target="_blank" rel="noopener noreferrer" class="map-link bg-lime-500">
+      <a :href="googleMapsLink" target="_blank" rel="noopener noreferrer" class="map-link bg-lime-500 hover:bg-lime-600">
         Open in Google Maps
       </a>
     </div>
@@ -24,7 +24,8 @@ export default {
       // Replace with your venue coordinates
       venueLatitude: 13.811543,
       venueLongitude: 100.464257,
-      googleMapsLink: `https://www.google.com/maps/dir/?api=1&destination=${13.811543},${100.464257}&destination_place_id=YOUR_PLACE_ID`, // You can also include a place ID if available
+      // googleMapsLink: `https://www.google.com/maps/dir/?api=1&destination=${13.811543},${100.464257}&destination_place_id=YOUR_PLACE_ID`, // You can also include a place ID if available
+       googleMapsLink: `https://maps.app.goo.gl/9NvXMwL8dqKfU9zD7`,
     };
   },
 };
@@ -47,6 +48,6 @@ export default {
 }
 
 .map-link:hover {
-  background-color: #357AE8;
+  /* background-color: #357AE8; */
 }
 </style>
