@@ -52,6 +52,7 @@ export default {
         require('@/assets/photos/aun-satang3.jpg'),
         require('@/assets/photos/aun-satang4.jpg'),
         require('@/assets/photos/aun-satang5.jpg'),
+        
       ],
       touchStartX: 0,
       touchEndX: 0,
