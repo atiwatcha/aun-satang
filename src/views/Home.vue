@@ -1,5 +1,5 @@
 <template>
-    <div class="justify-center items-center bg-gray-100">
+    <div class="justify-center items-center">
         <WeddingHero />
         
         <!-- Use the CountdownTimer component -->
