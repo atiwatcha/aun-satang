@@ -2,11 +2,11 @@
     <div class="bg-white p-6 rounded-lg shadow-lg">
         <div class="flex justify-center items-center">
             <div class="text-center">
-                <h2 class="text-neutral-content text-xl font-semibold text-green-500 mb-4">นับถอยหลังสู่งานแต่ง <br />{{ dateWedding }}</h2>
+                <h2 class="text-neutral-content text-xl font-semibold text-purple-300 mb-4">นับถอยหลังสู่งานแต่ง <br />{{ dateWedding }}</h2>
             </div>
         </div>
         <div class="flex justify-center items-center">
-            <div class="grid grid-rows-1 auto-cols-max grid-flow-col gap-4 text-center">
+            <div class="grid grid-rows-1 auto-cols-max grid-flow-col gap-4 text-center text-amber-300">
                 
                 <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
                     <span class="countdown font-mono text-5xl">
@@ -34,11 +34,11 @@
                 </div>
             </div>
         </div>
-        <div class="flex justify-center items-center">
+        <!-- <div class="flex justify-center items-center">
             <div class="text-center">
                 <p class="mt-2 text-gray-500">เวลาที่เหลืออยู่</p>
             </div>
-        </div>
+        </div> -->
     </div>
     
 </template>
