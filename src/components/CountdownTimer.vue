@@ -2,7 +2,8 @@
     <div class="bg-white p-6 rounded-lg shadow-lg">
         <div class="flex justify-center items-center">
             <div class="text-center">
-                <h2 class="text-neutral-content text-xl font-semibold text-purple-300 mb-4">นับถอยหลังสู่งานแต่ง <br />{{ dateWedding }}</h2>
+                <div class="title text-neutral-content text-xl font-semibold text-purple-300 mb-4">นับถอยหลังสู่งานแต่ง</div>
+                <div class="date text-neutral-content text-xl font-semibold text-purple-400 mb-4">{{ dateWedding }}</div>
             </div>
         </div>
         <div class="flex justify-center items-center">
@@ -109,7 +110,7 @@ export default {
             const minutes = String(date.getMinutes()).padStart(2, '0');
             const seconds = String(date.getSeconds()).padStart(2, '0');
 
-            this.dateWedding = `${day} มีนาคม ${year} ${hours}:${minutes}:${seconds}`;
+            this.dateWedding = `1 มีนาคม ${year} ${hours}:${minutes}:${seconds}`;
         },
     },
 };
@@ -117,4 +118,11 @@ export default {
 
 <style scoped>
 /* Additional scoped styles for the component (Optional) */
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.date {
+  font-size: 1.5em;
+}
 </style>
