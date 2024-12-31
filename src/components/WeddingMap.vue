@@ -7,7 +7,6 @@
       </div>
     </div>
     <div class="map-container">
-      <!-- <h2>Find Us Here</h2> -->
       <a :href="googleMapsLink" target="_blank" rel="noopener noreferrer" class="map-link bg-lime-500 hover:bg-lime-600">
         Open in Google Maps
       </a>
