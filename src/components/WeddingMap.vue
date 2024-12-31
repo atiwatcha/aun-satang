@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white p-6 rounded-lg shadow-lg">
+  <div class="bg-white dark:bg-stone-50 p-6 rounded-lg shadow-lg">
     <div class="flex justify-center items-center">
       <div class="text-center">
         <h2 class="text-neutral-content text-xl font-semibold text-lime-500 mb-4">สถานที่จัดงาน</h2>

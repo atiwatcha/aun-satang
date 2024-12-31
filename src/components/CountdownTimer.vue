@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white p-6 rounded-lg shadow-lg">
+    <div class="bg-white dark:bg-stone-100 p-6 rounded-lg shadow-lg">
         <div class="flex justify-center items-center">
             <div class="text-center">
                 <div class="title text-neutral-content text-xl font-semibold text-purple-300 mb-4">นับถอยหลังสู่งานแต่ง</div>

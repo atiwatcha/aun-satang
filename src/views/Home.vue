@@ -1,24 +1,26 @@
 <template>
     <div class="justify-center items-center">
         <WeddingHero />
-        
+        <WeddingShowImages />
         <!-- Use the CountdownTimer component -->
         <CountdownTimer />
         <!-- <StorySection /> -->
         <!-- <DetailsSection /> -->
-       
+        
         <RSVPForm />
         <WeddingMap />
         <WeddingMapShow />
-        <WeddingShowImages />
+       
     </div>
   </template>
   
   <script>
   import WeddingHero from '../components/WeddingHero.vue';
   import CountdownTimer from '../components/CountdownTimer.vue';
-  import StorySection from '../components/StorySection.vue';
-  import DetailsSection from '../components/DetailsSection.vue';
+
+  //import StorySection from '../components/StorySection.vue';
+  //import DetailsSection from '../components/DetailsSection.vue';
+
   import WeddingShowImages from '../components/WeddingShowImages.vue';
   import RSVPForm from '../components/RSVPForm.vue';
   import WeddingMap from '../components/WeddingMap.vue';
@@ -27,8 +29,10 @@
     components: {
         WeddingHero,
         CountdownTimer,
-        StorySection,
-        DetailsSection,
+
+        //StorySection,
+        //DetailsSection,
+        
         WeddingShowImages,
         RSVPForm,
         WeddingMap,
